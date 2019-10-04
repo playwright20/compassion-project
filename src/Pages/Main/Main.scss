@@ -1,3 +1,72 @@
 .Main {
-  border: 1px solid red;
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.mainChild {
+  padding-bottom: 60px;
+}
+
+.mainTitle {
+  padding: 100px 0 40px;
+
+  h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #b5b5b5;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+  }
+
+  h2 span {
+    font-size: 35px;
+    background: #fff;
+    padding: 0 10px;
+  }
+}
+
+.mainChildRecomSection {
+  display: flex;
+  justify-content: center;
+}
+
+.imgChild {
+  width: 450px;
+  height: 340px;
+  overflow: hidden;
+  padding: 0 10px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.textWrap {
+  padding-left: 20px;
+}
+
+.labelChild {
+  height: 32px;
+  border-radius: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 8px;
+  border: 1px solid #0155a6;
+  color: #0155a6;
+  display: inline-block;
+  line-height: 2;
+}
+
+.labelTxt {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 1.33;
+  color: #171717;
+  margin: 15px 0;
 }

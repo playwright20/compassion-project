@@ -3,7 +3,11 @@
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  background-color: #fff;
 }
 
 .headerTop {
@@ -14,6 +18,7 @@
 
 .topWrap {
   max-width: 980px;
+  margin: 0 auto;
 }
 
 .top {
