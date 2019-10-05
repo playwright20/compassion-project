@@ -126,3 +126,45 @@
     padding: 0 10px;
   }
 }
+
+.mainChildSupport {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.imgArea {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.txtArea {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.imgShape {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  margin: 0 0 30px;
+  padding: 0 0 0 15px;
+}
+
+.supportTxt {
+  display: inline-block;
+  line-height: 1.33;
+}
+
+.supportTitle {
+  font-size: 20px;
+  color: #171717;
+  margin: 8px 0;
+  font-weight: 600;
+}
+
+.supportDesc {
+  font-size: 15px;
+  color: #666666;
+}

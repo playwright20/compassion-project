@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Main.scss';
+import MapImg from '../../Images/tmpMapImg.png';
 
 
 class Main extends Component {
@@ -67,8 +68,62 @@ class Main extends Component {
                                         </h2>
                                     </div>
                                 </div> 
-                                <div className="map">
-                                    
+                                <div className="supportList">
+                                    <div className="imgArea">
+                                        <div className="map">
+                                            <img className="tmpMapImg" src={MapImg} alt="임시 맵 이미지" />
+                                            <div className="txtArea">
+                                                <div className="supportTitle">브라질</div>
+                                                <div className="supportNationDetail">
+                                                    <a className="anchorNation" href="https://www.compassion.or.kr/sponsor/children/?c=0907324287&focus=Y">
+                                                        자세히보기
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="imgShape">
+                                            <img className="img" src="https://www.compassion.or.kr/common/img/main/support/america-support-4.jpg" alt=""/>
+                                            <div className="supportTxt">
+                                                <div className="supportTitle">학교 교육과 방과후 활동</div>
+                                                <div className="supportDesc">컴퓨터, 재봉, 미용 등의 기술을 배우거나 스포츠 및 음악교실을 운영합니다.</div>
+                                            </div>
+                                        </div>
+                                        <div className="imgShape">
+                                            <img className="img" src="http://www.compassion.or.kr/common/img/main/support/america-support-5.jpg" alt=""/>
+                                            <div className="supportTxt">
+                                                <div className="supportTitle">멘토링</div>
+                                                <div className="supportDesc">컴패션 선생님들은 어린이들의 교육 및 양육 관련 전반적인 멘토가 되어줍니다.</div>
+                                            </div>
+                                        </div>
+                                        <div className="imgShape">
+                                            <img className="img" src="https://www.compassion.or.kr/common/img/main/support/america-support-3.jpg" alt=""/>
+                                            <div className="supportTxt">
+                                                <div className="supportTitle">위생 교육</div>
+                                                <div className="supportDesc">비누, 치약 등의 위생용품을 제공하고 청결을 유지하는 방법을 배웁니다.</div>
+                                            </div>
+                                       </div>
+                                        <div className="imgShape">
+                                            <img className="img" src="https://www.compassion.or.kr/common/img/main/support/america-support-1.jpg" alt=""/>
+                                            <div className="supportTxt">
+                                                <div className="supportTitle">건강 검진</div>
+                                                <div className="supportDesc">정기적 건강검진을 통해 성장발달사항을 체크하며, 에이즈예방과 치료를 제공합니다.</div>
+                                            </div>
+                                        </div>
+                                        <div className="imgShape">
+                                            <img className="img" src="https://www.compassion.or.kr/common/img/main/support/america-support-2.jpg" alt=""/>
+                                            <div className="supportTxt">
+                                                <div className="supportTitle">영양보충</div>
+                                                <div className="supportDesc">충분한 음식이 없는 어린이들에게 영양식과 비타민을 제공합니다.</div>
+                                            </div>
+                                        </div>
+                                        <div className="imgShape">
+                                            <img className="img" src="https://www.compassion.or.kr/common/img/main/support/america-support-6.jpg" alt=""/>
+                                            <div className="supportTxt">
+                                                <div className="supportTitle">신앙 활동</div>
+                                                <div className="supportDesc">연령에 맞는 신앙 활동을 통해 예수님의 사랑을 배웁니다.</div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
