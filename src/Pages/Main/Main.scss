@@ -11,6 +11,8 @@
 
 .mainTitle {
   padding: 100px 0 40px;
+  max-width: 960px;
+  margin: 0 auto;
 
   h2 {
     width: 100%;
@@ -144,10 +146,28 @@
   width: 100%;
 }
 
+.supportTitle {
+  font-size: 20px;
+  line-height: 1.33;
+  color: #171717;
+  margin-bottom: 5px;
+}
+
+.anchorNation {
+  font-size: 14px;
+  color: #808080;
+  display: inline-block;
+  line-height: 1.33;
+  padding: 3px 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
 .imgShape {
   display: flex;
   flex-direction: column;
-  width: 230px;
+  width: 23%;
   margin: 0 0 30px;
   padding: 0 0 0 15px;
 }
@@ -167,4 +187,61 @@
 .supportDesc {
   font-size: 15px;
   color: #666666;
+}
+
+.mainLinkBanner {
+  background-color: #005eb8;
+}
+.bannerWrap {
+  max-width: 980px;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.bannerMiracle,
+.bannerRule {
+  text-align: center;
+  width: 50%;
+  padding: 40px 15px;
+  margin: 0 15px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.lbInfo {
+  margin-top: 30px;
+}
+
+.lbTitle {
+  font-size: 23px;
+  font-weight: 600;
+  color: #005eb8;
+  line-height: 1.33;
+  margin-top: 10px;
+}
+
+.lbDesc {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #005eb8;
+  margin-top: 12px;
+}
+
+.btnAnchor {
+  font-size: 17px;
+  line-height: 1.33;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  padding: 12px 20px 14px;
+  margin-top: 25px;
+  border-radius: 4px;
+  background-color: #005eb8;
+}
+
+.mainNews {
+  background-color: #fff;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Main.scss';
 import MapImg from '../../Images/tmpMapImg.png';
+import Footer from '../../Components/Footer/Footer';
 
 
 class Main extends Component {
@@ -129,7 +130,65 @@ class Main extends Component {
                         </div>
                     </div>
                 </div>
-                {/* <Footer/> */}
+                <section className="main">
+                    <div className="mainLinkBanner">
+                        <div className="bannerWrap">
+                            <div className="bannerMiracle">
+                                <div className="lbGraphic">
+                                    <img className="" src="https://www.compassion.or.kr/common/img/main/lb_miracle.png" alt="양육 기적 배너" />
+                                </div>
+                                <div className="lbInfo">
+                                    <div className="lbTitle">한 어린이를 통한 컴패션 양육의 기적</div>
+                                    <div className="lbDesc">
+                                        컴패션은 한 어린이를 전인적으로 양육하여
+                                        <br/>
+                                        가정과 지역사회를 변화시킬 기적의 주인공으로 세웁니다.
+                                    </div>
+                                    <div className="lbLink">
+                                        <a href="https://www.compassion.or.kr/about-us/about/" className="btnAnchor">컴패션 양육</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="bannerRule">
+                                <div className="lbGraphic">
+                                    <img className="" src="https://www.compassion.or.kr/common/img/main/lb_rule.png" alt="후원금 사용 내역 배너" />
+                                </div>
+                                <div className="lbInfo">
+                                    <div className="lbTitle">컴패션 후원금은 이렇게 사용됩니다!</div>
+                                    <div className="lbDesc">
+                                        컴패션은 후원금의 80% 이상을 반드시 
+                                        <br/>
+                                        어린이 양육을 위해 사용한다는 원칙을 지킵니다.
+                                    </div>
+                                    <div className="lbLink">
+                                        <a href="https://www.compassion.or.kr/about-us/business-report/" className="btnAnchor">투명경영</a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="mainNews">
+                            <div className="mainTitle">
+                                <h2 className="titleBox">
+                                    <span className="titleTxt">컴패션 소식</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className = "newsList">
+                        <div className ="newsItemWide">
+                            
+                        </div>
+                        <div className ="newsImgWrap">
+                            <div className ="top">
+
+                            </div>
+                            <div className ="bottom">
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <Footer/>
             </>
         );
     }
